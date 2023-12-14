@@ -1,0 +1,102 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#background-container{
+    background-image: url("../background/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* display: flex; */
+   /* align-items: center;
+    justify-content: center;*/
+}
+/*****************************************************************/
+#top-nav{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+#top-nav > #top-nav-title{
+    border: 1px solid white;
+    padding: 1em;
+    letter-spacing: 2px;
+}
+
+#top-nav > #user-icon{
+    border: 1px solid white;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+#user-icon > .material-symbols-outlined{
+    margin: auto;
+    font-size: 3em;
+}
+/**************************************************************/
+#top-container{
+    border: 1px solid white;
+    min-height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 15em;
+}
+
+#top-container > #new-document, #top-container > #open-from-files{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+#top-container > #new-document > .material-symbols-outlined{
+    margin: auto;
+    font-size: 3em;
+}
+
+#top-container > #open-from-files > .material-symbols-outlined{
+    margin: auto;
+    font-size: 3em;
+}
+
+/********************************************/
+
+#bottom-nav{
+    border: 1px solid white;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#bottom-nav > h2{
+    border: 1px solid white;
+    padding: 1em;
+}
+
+/********************************************/
+
+#bottom-container{
+    min-height: 45vh;
+    border: 1px solid white;  
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#bottom-container > .card{
+    width: 20%;
+    border: 1px solid white;
+    margin: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
