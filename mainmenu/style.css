@@ -1,13 +1,14 @@
 *{
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color: black;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
 #background-container{
-    background-image: url("../background/background.jpg");
+    /*background-image: url("../background/background1.jpg");*/
+    background-color: whitesmoke;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -18,7 +19,8 @@
 }
 /*****************************************************************/
 #top-nav{
-    border: 1px solid white;
+    /*border: 1px solid black;*/
+    background-color: #071952;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,13 +28,14 @@
 }
 
 #top-nav > #top-nav-title{
-    border: 1px solid white;
+    /*border: 1px solid black;*/
+    font-size: 1.5em;
     padding: 1em;
-    letter-spacing: 2px;
+    color: white;
 }
 
 #top-nav > #user-icon{
-    border: 1px solid white;
+    /*border: 1px solid black;*/
     padding: 1em;
     display: flex;
     justify-content: center;
@@ -41,18 +44,20 @@
 #user-icon > .material-symbols-outlined{
     margin: auto;
     font-size: 3em;
+    color: white;
 }
 /**************************************************************/
 #top-container{
-    border: 1px solid white;
-    min-height: 25vh;
+    border: 1px solid black;
+    min-height: 31vh;
     display: flex;
     justify-content: space-between;
     padding: 1em 15em;
 }
 
 #top-container > #new-document, #top-container > #open-from-files{
-    border: 1px solid white;
+    border: 3px solid #0B666A;
+    border-radius: 1em;
     display: flex;
     align-items: center;
     width: 30%;
@@ -61,32 +66,40 @@
 #top-container > #new-document > .material-symbols-outlined{
     margin: auto;
     font-size: 3em;
+    color: #0B666A;
+}
+
+#top-container > #new-document > .material-symbols-outlined:hover{
+    cursor: pointer;
 }
 
 #top-container > #open-from-files > .material-symbols-outlined{
     margin: auto;
     font-size: 3em;
+    color: #0B666A;
 }
 
 /********************************************/
 
 #bottom-nav{
-    border: 1px solid white;
+    /*border: 1px solid black;*/
+    background-color: #071952;
     min-height: 10vh;
     display: flex;
     align-items: center;
 }
 
 #bottom-nav > h2{
-    border: 1px solid white;
+    /*border: 1px solid black;*/
     padding: 1em;
+    color: white;
 }
 
 /********************************************/
 
 #bottom-container{
     min-height: 45vh;
-    border: 1px solid white;  
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -94,9 +107,15 @@
 
 #bottom-container > .card{
     width: 20%;
-    border: 1px solid white;
+    border: 2px solid #0B666A;
+    border-radius: 1em;
     margin: 0 1em;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#bottom-container > .card > p{
+    font-weight: bold;
+    color: #0B666A;
 }
